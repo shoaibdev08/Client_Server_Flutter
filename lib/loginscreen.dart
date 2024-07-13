@@ -17,7 +17,7 @@
       final String username = _usernameController.text;
       final String password = _passwordController.text;
 
-      final url = Uri.parse('http://localhost/flutter_api/login.php');
+      final url = Uri.parse('http://localhost:80/flutter_api/login.php');
       final headers = {'Content-Type': 'application/json'};
       final body = jsonEncode({
         'username': username,

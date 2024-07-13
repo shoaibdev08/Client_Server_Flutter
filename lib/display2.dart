@@ -8,7 +8,7 @@ class DisplayPosts extends StatefulWidget {
 }
 
 class _DisplayPostsState extends State<DisplayPosts> {
-  final String apiUrl = "http://localhost/flutter_api/get_posts.php";
+  final String apiUrl = "http://localhost:80/flutter_api/get_posts.php";
   List<dynamic> _posts = [];
   bool _isLoading = false;
   bool _hasError = false;

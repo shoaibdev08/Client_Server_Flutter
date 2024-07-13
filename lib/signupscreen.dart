@@ -19,7 +19,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
     final String username = _usernameController.text;
     final String password = _passwordController.text;
 
-    final url = 'http://localhost/flutter_api/signup.php';
+    final url = 'http://localhost:80/flutter_api/signup.php';
     final headers = {'Content-Type': 'application/json'};
     final body = jsonEncode({
       'username': username,
